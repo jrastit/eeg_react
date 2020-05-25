@@ -1,0 +1,47 @@
+{
+  "name": "lookup-client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "devDependencies": {
+    "enzyme": "3.11.0",
+    "react-addons-test-utils": "15.6.2",
+    "react-scripts": "^3.4.1"
+  },
+  "dependencies": {
+    "@portis/web3": "^2.0.0-beta.55",
+    "bootstrap": "^4.5.0",
+    "canvasjs": "^1.8.3",
+    "chart.js": "^2.9.3",
+    "npm-check-updates": "^6.0.1",
+    "react": "16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-chart": "0.0.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-charts": "^2.0.0-beta.6",
+    "react-dom": "16.13.1",
+    "react-elemental": "^1.2.2",
+    "react-elemental-fonts": "0.0.2",
+    "react-player": "^2.0.1",
+    "semantic-ui": "^2.4.2",
+    "web3": "^1.2.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

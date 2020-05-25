@@ -1,0 +1,22 @@
+{
+  "name": "lookup-server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "express": "^4.17.1",
+    "fs": "0.0.2",
+    "sql.js": "1.2.2",
+    "sqlite3": "^4.2.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "node start-client.js",
+    "dev": "echo \"This command has been deprecated. Use 'npm start'\" && exit 1",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "concurrently": "5.2.0"
+  }
+}
